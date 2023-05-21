@@ -1,0 +1,103 @@
+/* common style */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    padding-left: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://img.freepik.com/free-photo/vintage-retro-camera-and-envelopes-with-letters-closeup_169016-17197.jpg?size=626&ext=jpg&ga=GA1.1.1610815588.1684654861&semt=sph);
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-list {
+    font-size: 40px;
+    display: flex;
+    gap: 100px;
+}
+
+.nav-link:hover {
+    color: #e34b4b;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.main-header, .section-title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    color: #fff;
+    background-color: rgb(182, 168, 149);
+}
+
+
+/* index */
+.section-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    text-align: justify;
+}
+
+.revert {
+    flex-direction: row-reverse;
+}
+
+.image-wrapper {
+    flex-basis: 300px; 
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+}
+
+/* gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.gallery-item {
+    flex-basis: 30%;
+    line-height: 0;
+}
+
+.gallery-image {
+    width: 300px;
+    height: 150px;
+}
